@@ -21,7 +21,9 @@
         <activity android:name=".Registration" />
         <activity android:name=".RegistrationContinue" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ReadMessage"></activity>
+        <activity android:name=".ReadMessage" />
+        <activity android:name=".PaymentMethod" />
+        <activity android:name=".ReferalProgram"></activity>
     </application>
 
 </manifest>
