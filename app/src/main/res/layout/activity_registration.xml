@@ -11,6 +11,27 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/cardview_default_radius"
+            android:layout_marginTop="@dimen/cardview_default_radius"
+            android:text="Menzebanc"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/cardview_default_elevation"
+            android:text="Gold Vault Market"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorPrimaryDark" />
     </LinearLayout>
   <LinearLayout
         android:layout_width="match_parent"
@@ -22,6 +43,7 @@
           android:id="@+id/scratchCardNumber"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/cardview_default_elevation"
           android:ems="10"
           android:hint="Scratch Card Number"
           android:inputType="textPersonName"
@@ -31,6 +53,8 @@
           android:id="@+id/scratchCardPassword"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
+          android:layout_marginStart="@dimen/cardview_default_radius"
+          android:layout_marginTop="@dimen/cardview_default_elevation"
           android:ems="10"
           android:hint="Scratch Card Password"
           android:inputType="textPassword" />
@@ -39,6 +63,7 @@
           android:id="@+id/continueRegistration"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
+          android:layout_margin="@dimen/cardview_default_elevation"
           android:background="@color/blue"
           android:text="Continue"
           android:textColor="@color/cardview_light_background" />
