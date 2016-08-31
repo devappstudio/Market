@@ -18,7 +18,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
 
         <LinearLayout
@@ -34,14 +34,17 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
-                tools:text="How Did You Hear Of Us ?" />
+                android:text="How Did You Hear Of Us ?"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold" />
 
             <Spinner
                 android:id="@+id/selectReferenceMethod"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:entries="@array/referral_type" />
 
         </LinearLayout>
 
@@ -54,11 +57,13 @@
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
-                tools:text="Referred By :" />
+                android:text="Referred By :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold" />
 
             <EditText
                 android:id="@+id/referenceAccount"
@@ -67,7 +72,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="Account Number"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="?attr/colorPrimaryDark" />
         </LinearLayout>
 
         <LinearLayout
@@ -77,6 +83,16 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Enter Your Card Number"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold" />
+
             <EditText
                 android:id="@+id/cardNumber"
                 android:layout_width="0dp"
@@ -84,7 +100,27 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="Card Number"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="?attr/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Enter Your Card Password"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold" />
 
             <EditText
                 android:id="@+id/cardPassword"
@@ -93,14 +129,15 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="Card Password"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="?attr/colorPrimaryDark" />
         </LinearLayout>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/finishBtn"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="0.8"
             android:background="@color/blue"
             android:text="FINISH"
             android:textColor="@color/cardview_light_background" />

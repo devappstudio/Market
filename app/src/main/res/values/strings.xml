@@ -1885,4 +1885,16 @@
             <iso3>ZWE</iso3>
         </item>
     </string-array>
+    <string-array name="referral_type">
+        <item>Other</item>
+        <item>Account Holder</item>
+    </string-array>
+    <string-array name="payment_method">
+        <item>Bank Account</item>
+        <item>Cash</item>
+    </string-array>
+    <string-array name="payment_bank">
+        <item>Eco Bank</item>
+        <item>Other</item>
+    </string-array>
 </resources>

@@ -23,7 +23,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".ReadMessage" />
         <activity android:name=".PaymentMethod" />
-        <activity android:name=".ReferalProgram"></activity>
+        <activity android:name=".ReferalProgram" />
+        <activity android:name=".QuitInvestment" />
+        <activity android:name=".RollOverInvestment"></activity>
     </application>
 
 </manifest>

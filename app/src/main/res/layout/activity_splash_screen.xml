@@ -19,6 +19,19 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="Welcome To Menzbanc"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/blue"
+                android:textStyle="normal|bold|italic" />
+
         </LinearLayout>
 
         <TextView
@@ -28,10 +41,10 @@
             android:layout_gravity="bottom"
             android:layout_weight="1"
             android:fontFamily="sans-serif"
-            android:text="Welcome To Menzbanc"
+            android:text="Gold Vault Market"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="@color/blue"
+            android:textColor="@color/colorPrimaryDark"
             android:textStyle="normal|bold|italic" />
     </LinearLayout>
 
@@ -42,6 +55,10 @@
         android:layout_weight="3"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/menz1" />
     </LinearLayout>
 
 

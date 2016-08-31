@@ -19,33 +19,40 @@
         android:orientation="vertical">
 
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/paymentMethod"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+
+            android:entries="@array/payment_method" />
 
         <Spinner
-            android:id="@+id/spinner3"
+            android:id="@+id/paymentBank"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:entries="@array/payment_bank" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/accountNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:ems="10"
             android:hint="Account Number"
             android:inputType="textPersonName" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonPaymentMethod"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@color/blue"
-            android:text="Button"
+            android:text="Save Payment Method"
             android:textColor="@color/cardview_light_background" />
 
 
